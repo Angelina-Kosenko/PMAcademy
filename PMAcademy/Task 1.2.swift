@@ -6,17 +6,14 @@
 //
 
 import Foundation
+func factorial(y: Int) {
+    var x = 1
+    for i in 1...y {
+        x = x * i
 
-import Foundation
-
-func factorial(of num: Int) -> Int {
-    if num == 1 {
-        return 1
-    } else {
-        return num * factorial(of:num - 1)
     }
+
+    
+    print (x)
 }
 
-let x = 5
-let result = factorial(of: x)
-print("The factorial of \(x) is \(result)")
