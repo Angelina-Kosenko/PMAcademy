@@ -16,6 +16,7 @@
 		9EB648B82582B8C20089AB83 /* PMAcademyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB648B72582B8C20089AB83 /* PMAcademyUITests.swift */; };
 		9EB648C92582B8ED0089AB83 /* Task 1.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB648C82582B8ED0089AB83 /* Task 1.1.swift */; };
 		9EB648F62582BC250089AB83 /* Task 1.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB648F52582BC250089AB83 /* Task 1.2.swift */; };
+		9EB648FB2582BD7C0089AB83 /* Task 1.3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB648FA2582BD7C0089AB83 /* Task 1.3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9EB648B92582B8C20089AB83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EB648C82582B8ED0089AB83 /* Task 1.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task 1.1.swift"; sourceTree = "<group>"; };
 		9EB648F52582BC250089AB83 /* Task 1.2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task 1.2.swift"; sourceTree = "<group>"; };
+		9EB648FA2582BD7C0089AB83 /* Task 1.3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task 1.3.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		9EB6488C2582B8BF0089AB83 = {
 			isa = PBXGroup;
 			children = (
+				9EB648FA2582BD7C0089AB83 /* Task 1.3.swift */,
 				9EB648F52582BC250089AB83 /* Task 1.2.swift */,
 				9EB648C82582B8ED0089AB83 /* Task 1.1.swift */,
 				9EB648972582B8BF0089AB83 /* PMAcademy */,
@@ -272,6 +275,7 @@
 				9EB6489B2582B8BF0089AB83 /* PMAcademyDocument.swift in Sources */,
 				9EB648992582B8BF0089AB83 /* PMAcademyApp.swift in Sources */,
 				9EB6489D2582B8BF0089AB83 /* ContentView.swift in Sources */,
+				9EB648FB2582BD7C0089AB83 /* Task 1.3.swift in Sources */,
 				9EB648F62582BC250089AB83 /* Task 1.2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
