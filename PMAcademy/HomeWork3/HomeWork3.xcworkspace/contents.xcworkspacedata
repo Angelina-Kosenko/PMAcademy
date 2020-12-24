@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Task4.HW3/Task4.AppMusic.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Task1.2.HW3/Task1.2.HW3.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Task3.HW3/Task3.HW3.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Task2.HW3/Task2.HW3.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Task1.HW3/Calculator.xcodeproj">
+   </FileRef>
+</Workspace>
