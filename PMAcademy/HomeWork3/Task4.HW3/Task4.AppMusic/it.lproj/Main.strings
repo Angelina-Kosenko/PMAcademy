@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "Player"; ObjectID = "3Y6-Gf-4o5"; */
+"3Y6-Gf-4o5.text" = "Player";
+
+/* Class = "UILabel"; text = "Wins \n340"; ObjectID = "BbL-OB-7q6"; */
+"BbL-OB-7q6.text" = "Wins \n340";
+
+/* Class = "UIButton"; normalTitle = "Check Stats"; ObjectID = "Dbt-9b-8pd"; */
+"Dbt-9b-8pd.normalTitle" = "Check Stats";
+
+/* Class = "UILabel"; text = "Games \n453"; ObjectID = "Fc8-jy-vJ2"; */
+"Fc8-jy-vJ2.text" = "Games \n453";
+
+/* Class = "UILabel"; text = "Lorem ipsum text since Jan 2015"; ObjectID = "SxW-f5-siJ"; */
+"SxW-f5-siJ.text" = "Lorem ipsum text since Jan 2015";
+
+/* Class = "UITextField"; placeholder = "Enter username"; ObjectID = "Vm3-qi-EHx"; */
+"Vm3-qi-EHx.placeholder" = "Enter username";
+
+/* Class = "UIButton"; normalTitle = "Give Me Some Details"; ObjectID = "en5-ih-HTz"; */
+"en5-ih-HTz.normalTitle" = "Give Me Some Details";
+
+/* Class = "UILabel"; text = "Videos \n115"; ObjectID = "n7U-Vo-DBb"; */
+"n7U-Vo-DBb.text" = "Videos \n115";
+
+/* Class = "UILabel"; text = "Player enthusiast"; ObjectID = "p4C-xO-tz5"; */
+"p4C-xO-tz5.text" = "Player enthusiast";
+
+/* Class = "UIButton"; normalTitle = "Check Stats"; ObjectID = "pTh-DR-jD1"; */
+"pTh-DR-jD1.normalTitle" = "Check Stats";
+
+/* Class = "UILabel"; text = "Beyound Limits"; ObjectID = "rqi-aU-vCI"; */
+"rqi-aU-vCI.text" = "Beyound Limits";
+
+/* Class = "UILabel"; text = "Hearts \n5483"; ObjectID = "sP8-Mb-bZA"; */
+"sP8-Mb-bZA.text" = "Hearts \n5483";

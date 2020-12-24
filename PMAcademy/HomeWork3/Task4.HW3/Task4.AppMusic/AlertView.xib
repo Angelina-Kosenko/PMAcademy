@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="center" id="iN0-l3-epB" customClass="AlertView" customModule="Task4_AppMusic" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ae-Jd-RPd">
+                    <rect key="frame" x="20" y="250" width="260" height="40"/>
+                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                    <state key="normal" title="OK">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.corner.radius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="okBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="uaB-h5-w1h"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxX-yB-o20">
+                    <rect key="frame" x="25" y="128.5" width="250" height="81.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Big Alert Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0gg-4g-Ekl">
+                    <rect key="frame" x="51.5" y="59" width="197" height="36"/>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="3Ae-Jd-RPd" secondAttribute="bottom" constant="20" id="0Ss-du-b15"/>
+                <constraint firstAttribute="trailing" secondItem="yxX-yB-o20" secondAttribute="trailing" constant="25" id="8Bn-yK-Bbc"/>
+                <constraint firstItem="yxX-yB-o20" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="MEx-Nv-CBf"/>
+                <constraint firstItem="0gg-4g-Ekl" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="15" id="aX4-hV-KNv"/>
+                <constraint firstItem="3Ae-Jd-RPd" firstAttribute="top" secondItem="yxX-yB-o20" secondAttribute="bottom" constant="40" id="cAK-dX-4F1"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="3Ae-Jd-RPd" secondAttribute="trailing" constant="20" id="joK-xD-lmX"/>
+                <constraint firstItem="3Ae-Jd-RPd" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="sS4-ae-qyp"/>
+                <constraint firstItem="0gg-4g-Ekl" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="vku-Vx-E2y"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="alertLeble" destination="yxX-yB-o20" id="FZZ-Zz-uYa"/>
+                <outlet property="alertTitle" destination="0gg-4g-Ekl" id="OKn-oo-lGH"/>
+            </connections>
+            <point key="canvasLocation" x="114" y="35"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
